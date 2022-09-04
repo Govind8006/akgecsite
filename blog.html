@@ -1,0 +1,118 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay kumar garg engineering college</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO1.svg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+        <h1>Our Achievements</h1>
+
+    </section>
+
+    <!-- blog -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certification.jpg">
+                <h2>AICRA 2020 Awards - India STEM College Award and Best Robolab Setup</h2>
+                <p>AKGEC has been honored with STEM Award-2020 under India STEM College Award 2020 and Best Robolab
+                    Setup during 3rd edition of STEM Contribution Awards & Summit -2020 organized by the All India
+                    Council for Robotics & Automation (AICRA) India on 13 February, 2020.</p>
+                <p>Dr. R K Agrawal, Director General AKGEC, and Prof Ashiv Shah, Head TIFAC Core, AKGEC received the
+                    award from the council on behalf of the college. This is the third consecutive year for AKGEC to be
+                    honored at STEM Awards & Summit.</p>
+
+
+                <!-- comment box -->
+
+                <div class="comment-box">
+                    <h3>
+                        Leave a comment
+                    </h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div class="blog-right">
+                <h3>Different Achievements</h3>
+                <div><span>Faculty Achievements</span></div>
+                <div><span>Student Achievements(Technical)</span></div>
+                <div><span>Student Achievements(Extra Curricular)</span></div>
+
+                <div><span>Chancellor's Award</span></div>
+                <div><span>AICTE Nomination</span></div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>AKGEC is one of the top engineering colleges in UP, Delhi NCR with excellent academic results,<br> best
+            placement, world-class infrastructure and Faculty.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ardent Genesis</p>
+
+    </section>
+
+
+
+    <!-- -javascript for menu- -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+
+            navlinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+
+</html>
